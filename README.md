@@ -162,7 +162,7 @@ You can optionally containerize the application using **Docker**.
 2. Build the Docker image for the user microservice:
 
 ```bash
-docker build -t user-microservice .
+docker build -t user-service .
 ```
 
 ### **Run the Docker Container**
@@ -170,6 +170,6 @@ docker build -t user-microservice .
 Run the container with the following command:
 
 ```bash
-docker run -d -p 8080:8080 --env-file .env user-microservice
+docker run -d -p 8080:8080 --env-file .env user-service
 ```
 This will start the microservice in a Docker container, mapping it to port 8080.
