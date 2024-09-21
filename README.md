@@ -44,8 +44,8 @@ user-microservice/
 │   ├── main/
 │   │   ├── java/
 │   │   │   └── com/
-│   │   │       └── example/
-│   │   │           └── usermicroservice/
+│   │   │       └── userservice/
+│   │   │           └── user-service/
 │   │   │               ├── controller/          # REST API Controllers
 │   │   │               ├── service/             # Business logic
 │   │   │               ├── repository/          # Data access layer (Repositories)
@@ -79,8 +79,8 @@ Ensure you have the following installed on your system:
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/user-microservice.git
-cd user-microservice
+git clone https://github.com/kumar-vibhanshu/user-service.git
+cd user-service
 
 ``` 
 ### **Configure environment variables**
@@ -113,14 +113,6 @@ mvn spring-boot:run
 ### **User API Endpoints**
 
 Here are the main endpoints for the User Microservice:
-
-- **POST /api/users**: Create a new user.
-- **GET /api/users**: Retrieves a list of all users.
-- **GET /api/users/{id}**: Retrieves a user by ID.
-- **DELETE /api/users/{id}**: Delete a user.
-- **UPDATE /api/users/{id}**: Update a user by ID.
-
-### **API Endpoints**
 
 | Method | Endpoint             | Description                    | Request Body                                                        |
 |--------|-----------------------|--------------------------------|--------------------------------------------------------------------|
