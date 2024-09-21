@@ -1,6 +1,6 @@
 # **User Microservice**
 
-This project is a **User Microservice** built with **Spring Boot 3.4** and **PostgreSQL**. It provides RESTful APIs for managing user entities (create, read, update, and delete). The application uses **JPA** for database interaction, and all credentials are stored securely in an `.env` file, which is excluded from version control.
+This project is a **User Microservice** built with **Spring Boot 3.4** and **PostgreSQL**. It provides RESTful APIs for managing user entities (create, read, update, and delete). The application uses **JPA** for database interaction.
 
 ## **Table of Contents**
 - [**User Microservice**](#user-microservice)
